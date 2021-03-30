@@ -23,7 +23,7 @@ buildscript {
         google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.0.0'
+        classpath 'com.android.tools.build:gradle:3.6.4'
         classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.4'
         classpath 'com.github.dcendents:android-maven-gradle-plugin:1.4.1'
         // NOTE: Do not place your application dependencies here; they belong
@@ -47,7 +47,7 @@ ext {
     compileSdkVersion = 29
     minSdkVersion = 14
     targetSdkVersion = 29
-    buildToolsVersion = "29.0.3"
+    buildToolsVersion = "28.0.3"
 
     // App dependencies versions
     okHttp3Version = "4.7.2"
